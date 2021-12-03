@@ -3,7 +3,7 @@ const app = express()
 const port = 8080
 
 app.get('/', (req, res) => {
-    res.send(`Url is: ${process.env.serviceOneUrl}`);
+    res.send(`url is: ${process.env.serviceOneUrl}`);
 })
 
 app.listen(port, () => {
